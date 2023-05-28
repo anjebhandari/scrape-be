@@ -4,18 +4,16 @@
 
 ### Copy example.env to .env and change according to your requirement.
 
-## Step 2 : DB migration
+## Step 2: Install npm
+
+### run `npm install`
+## Step 3 : DB migration
 
 ### run `knex migrate:latest`
 
-## Step 3 : DB Seeding
+## Step 4 : DB Seeding
 
 ### run `knex seed:run`
-
-## Step 4: Install npm
-
-### run `npm install`
-
 
 ## Step 5: Run in Dev Mode
 
